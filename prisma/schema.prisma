@@ -1,0 +1,171 @@
+// Eskgo ledger. Values are integer centavos, never reais.
+// profiles.id is auth.users.id. The foreign key and the signup trigger
+// live in supabase/migrations, because Prisma does not own the auth schema.
+//
+// DATABASE_URL is the pooled Supabase URL (port 6543).
+// DIRECT_URL is the direct URL (port 5432), used by Prisma migrations.
+// Keep both in the environment. Do not commit them.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum CardTone {
+  lime
+  lilac
+  cream
+
+  @@map("card_tone")
+}
+
+enum BudgetIcon {
+  utensils
+  home
+  car
+  sparkle
+
+  @@map("budget_icon")
+}
+
+enum TransactionIcon {
+  cart
+  play
+  car
+  coffee
+  home
+
+  @@map("transaction_icon")
+}
+
+enum PaymentKind {
+  card
+  cash
+
+  @@map("payment_kind")
+}
+
+/// Account sheet. Opening balance is the number that, minus every expense,
+/// shows the hero balance. A new signup starts at 0.
+model Profile {
+  id                  String   @id @db.Uuid
+  fullName            String   @map("full_name")
+  email               String
+  hideBalanceOnOpen   Boolean  @default(false) @map("hide_balance_on_open")
+  openingBalanceCents BigInt   @default(0) @map("opening_balance_cents")
+  createdAt           DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt           DateTime @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  cards            Card[]
+  budgetCategories BudgetCategory[]
+  transactions     Transaction[]
+  goals            Goal[]
+  contributions    Contribution[]
+
+  @@map("profiles")
+}
+
+/// Card form. Deleting a card is blocked while a transaction still points at it.
+model Card {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId     String   @map("user_id") @db.Uuid
+  name       String
+  lastFour   String   @map("last_four")
+  limitCents BigInt   @map("limit_cents")
+  dueDay     Int      @map("due_day")
+  tone       CardTone @default(cream)
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt  DateTime @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  profile      Profile       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  transactions Transaction[]
+
+  @@index([userId])
+  @@map("cards")
+}
+
+/// Budget category. Renaming the row also renames matching transactions
+/// for the same user. The trigger is in SQL, not in this model.
+model BudgetCategory {
+  id            String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId        String     @map("user_id") @db.Uuid
+  name          String
+  plannedCents  BigInt     @map("planned_cents")
+  icon          BudgetIcon @default(sparkle)
+  createdAt     DateTime   @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt     DateTime   @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  profile Profile @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, name])
+  @@index([userId])
+  @@map("budget_categories")
+}
+
+/// Expense. categoryName is text so a transaction can outlive its category
+/// and can use a name that is not in the plan, such as Assinaturas.
+/// Cash requires a null card. A card payment requires that user's card.
+model Transaction {
+  id            String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId        String          @map("user_id") @db.Uuid
+  description   String
+  categoryName  String          @map("category_name")
+  paymentKind   PaymentKind     @map("payment_kind")
+  cardId        String?         @map("card_id") @db.Uuid
+  occurredOn    DateTime        @map("occurred_on") @db.Date
+  amountCents   BigInt          @map("amount_cents")
+  icon          TransactionIcon @default(cart)
+  createdAt     DateTime        @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt     DateTime        @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  profile Profile @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card    Card?   @relation(fields: [cardId], references: [id], onDelete: Restrict)
+
+  @@index([userId, occurredOn])
+  @@index([userId, categoryName])
+  @@index([cardId])
+  @@map("transactions")
+}
+
+/// Savings goal. At most one featured goal per user. That partial unique
+/// index is created in SQL: goals_one_featured_per_user.
+model Goal {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId      String   @map("user_id") @db.Uuid
+  name        String
+  targetCents BigInt   @map("target_cents")
+  deadline    DateTime @db.Date
+  featured    Boolean  @default(false)
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  profile       Profile        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  contributions Contribution[]
+
+  @@index([userId])
+  @@map("goals")
+}
+
+/// A deposit into a goal. Deleting the goal deletes its contributions.
+/// The saved amount is the sum of these rows, not a stored column.
+model Contribution {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId      String   @map("user_id") @db.Uuid
+  goalId      String   @map("goal_id") @db.Uuid
+  amountCents BigInt   @map("amount_cents")
+  occurredOn  DateTime @map("occurred_on") @db.Date
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  profile Profile @relation(fields: [userId], references: [id], onDelete: Cascade)
+  goal    Goal    @relation(fields: [goalId], references: [id], onDelete: Cascade)
+
+  @@index([goalId])
+  @@index([userId, occurredOn])
+  @@map("contributions")
+}

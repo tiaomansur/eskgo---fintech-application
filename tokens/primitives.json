@@ -1,0 +1,2855 @@
+{
+  "color-ink-0": {
+    "$type": "color",
+    "$value": "#ffffff",
+    "$description": "Branco puro. Entra em halos e vidro sobre o fundo escuro.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-0"
+    }
+  },
+  "color-ink-50": {
+    "$type": "color",
+    "$value": "#f4f8ef",
+    "$description": "Texto principal sobre o canvas.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-50"
+    }
+  },
+  "color-ink-300": {
+    "$type": "color",
+    "$value": "#9ba79a",
+    "$description": "Texto secundário.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-300"
+    }
+  },
+  "color-ink-500": {
+    "$type": "color",
+    "$value": "#6f7d70",
+    "$description": "Texto discreto, eyebrow e metadados.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-500"
+    }
+  },
+  "color-ink-700": {
+    "$type": "color",
+    "$value": "#29362b",
+    "$description": "Borda padrão.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-700"
+    }
+  },
+  "color-ink-750": {
+    "$type": "color",
+    "$value": "#1a241c",
+    "$description": "Borda suave.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-750"
+    }
+  },
+  "color-ink-800": {
+    "$type": "color",
+    "$value": "#1b251d",
+    "$description": "Fundo de linha, input e tile.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-800"
+    }
+  },
+  "color-ink-820": {
+    "$type": "color",
+    "$value": "#121913",
+    "$description": "Base do vidro da navegação inferior.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-820"
+    }
+  },
+  "color-ink-850": {
+    "$type": "color",
+    "$value": "#151c16",
+    "$description": "Superfície elevada e sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-850"
+    }
+  },
+  "color-ink-900": {
+    "$type": "color",
+    "$value": "#0d120e",
+    "$description": "Superfície de painel.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-900"
+    }
+  },
+  "color-ink-950": {
+    "$type": "color",
+    "$value": "#030503",
+    "$description": "Canvas da aplicação.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-950"
+    }
+  },
+  "color-black-700": {
+    "$type": "color",
+    "$value": "#151518",
+    "$description": "Início do degradê do palco de cartões.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-700"
+    }
+  },
+  "color-black-800": {
+    "$type": "color",
+    "$value": "#0e0e0f",
+    "$description": "Fim do degradê do palco de cartões.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-800"
+    }
+  },
+  "color-black-900": {
+    "$type": "color",
+    "$value": "#030303",
+    "$description": "Theme color do viewport.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-900"
+    }
+  },
+  "color-black-950": {
+    "$type": "color",
+    "$value": "#0a0a0a",
+    "$description": "Tinta sobre a marca lima.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-950"
+    }
+  },
+  "color-lime-50": {
+    "$type": "color",
+    "$value": "#efffda",
+    "$description": "Lima quase branca. Cartão creme e destaque de meta.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-50"
+    }
+  },
+  "color-lime-100": {
+    "$type": "color",
+    "$value": "#efffc8",
+    "$description": "Lima suave. Ponta clara dos degradês.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-100"
+    }
+  },
+  "color-lime-300": {
+    "$type": "color",
+    "$value": "#d7ff65",
+    "$description": "Lima de marca. Ação primária e acento.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-300"
+    }
+  },
+  "color-lime-400": {
+    "$type": "color",
+    "$value": "#c9ff85",
+    "$description": "Lima clara, tom lilac do produto.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-400"
+    }
+  },
+  "color-lime-500": {
+    "$type": "color",
+    "$value": "#baf52e",
+    "$description": "Lima forte. Gradiente e estado pressionado.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-500"
+    }
+  },
+  "color-lime-600": {
+    "$type": "color",
+    "$value": "#8fe52f",
+    "$description": "Lima intensa.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-600"
+    }
+  },
+  "color-lime-700": {
+    "$type": "color",
+    "$value": "#74bf18",
+    "$description": "Lima profunda. Gráfico e cartão.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-700"
+    }
+  },
+  "color-mint-300": {
+    "$type": "color",
+    "$value": "#9fffc1",
+    "$description": "Menta. Ambiente e cartão.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-mint-300"
+    }
+  },
+  "color-danger-200": {
+    "$type": "color",
+    "$value": "#ffb9b9",
+    "$description": "Perigo. Texto e ação destrutiva.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-danger-200"
+    }
+  },
+  "color-black-alpha-10": {
+    "$type": "color",
+    "$value": "rgba(10, 10, 10, 0.10)",
+    "$description": "Preto da marca a 10%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-10"
+    }
+  },
+  "color-black-alpha-12": {
+    "$type": "color",
+    "$value": "rgba(10, 10, 10, 0.12)",
+    "$description": "Preto da marca a 12%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-12"
+    }
+  },
+  "color-black-alpha-13": {
+    "$type": "color",
+    "$value": "rgba(10, 10, 10, 0.13)",
+    "$description": "Preto da marca a 13%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-13"
+    }
+  },
+  "color-black-alpha-15": {
+    "$type": "color",
+    "$value": "rgba(10, 10, 10, 0.15)",
+    "$description": "Preto da marca a 15%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-15"
+    }
+  },
+  "color-black-alpha-48": {
+    "$type": "color",
+    "$value": "rgba(10, 10, 10, 0.48)",
+    "$description": "Preto da marca a 48%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-48"
+    }
+  },
+  "color-black-alpha-50": {
+    "$type": "color",
+    "$value": "rgba(10, 10, 10, 0.50)",
+    "$description": "Preto da marca a 50%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-50"
+    }
+  },
+  "color-black-alpha-52": {
+    "$type": "color",
+    "$value": "rgba(10, 10, 10, 0.52)",
+    "$description": "Preto da marca a 52%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-52"
+    }
+  },
+  "color-black-alpha-56": {
+    "$type": "color",
+    "$value": "rgba(10, 10, 10, 0.56)",
+    "$description": "Preto da marca a 56%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-56"
+    }
+  },
+  "color-black-alpha-30": {
+    "$type": "color",
+    "$value": "rgba(0, 0, 0, 0.30)",
+    "$description": "Preto a 30%. Sombra de cartão.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-30"
+    }
+  },
+  "color-black-alpha-48-shadow": {
+    "$type": "color",
+    "$value": "rgba(0, 0, 0, 0.48)",
+    "$description": "Preto a 48%. Sombra de overlay.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-48-shadow"
+    }
+  },
+  "color-black-alpha-70": {
+    "$type": "color",
+    "$value": "rgba(0, 0, 0, 0.70)",
+    "$description": "Preto a 70%. Véu do sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-black-alpha-70"
+    }
+  },
+  "color-white-alpha-22": {
+    "$type": "color",
+    "$value": "rgba(255, 255, 255, 0.22)",
+    "$description": "Branco a 22%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-white-alpha-22"
+    }
+  },
+  "color-white-alpha-30": {
+    "$type": "color",
+    "$value": "rgba(255, 255, 255, 0.30)",
+    "$description": "Branco a 30%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-white-alpha-30"
+    }
+  },
+  "color-white-alpha-34": {
+    "$type": "color",
+    "$value": "rgba(255, 255, 255, 0.34)",
+    "$description": "Branco a 34%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-white-alpha-34"
+    }
+  },
+  "color-white-alpha-55": {
+    "$type": "color",
+    "$value": "rgba(255, 255, 255, 0.55)",
+    "$description": "Branco a 55%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-white-alpha-55"
+    }
+  },
+  "color-lime-alpha-7": {
+    "$type": "color",
+    "$value": "rgba(186, 245, 46, 0.07)",
+    "$description": "Lima forte a 7%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-alpha-7"
+    }
+  },
+  "color-lime-alpha-9": {
+    "$type": "color",
+    "$value": "rgba(186, 245, 46, 0.09)",
+    "$description": "Lima forte a 9%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-alpha-9"
+    }
+  },
+  "color-lime-alpha-13": {
+    "$type": "color",
+    "$value": "rgba(186, 245, 46, 0.13)",
+    "$description": "Lima forte a 13%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-alpha-13"
+    }
+  },
+  "color-lime-alpha-14": {
+    "$type": "color",
+    "$value": "rgba(186, 245, 46, 0.14)",
+    "$description": "Lima forte a 14%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-alpha-14"
+    }
+  },
+  "color-lime-alpha-18": {
+    "$type": "color",
+    "$value": "rgba(186, 245, 46, 0.18)",
+    "$description": "Lima forte a 18%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-alpha-18"
+    }
+  },
+  "color-lime-alpha-22": {
+    "$type": "color",
+    "$value": "rgba(186, 245, 46, 0.22)",
+    "$description": "Lima forte a 22%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-alpha-22"
+    }
+  },
+  "color-lime-soft-alpha-50": {
+    "$type": "color",
+    "$value": "rgba(239, 255, 200, 0.50)",
+    "$description": "Lima suave a 50%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-soft-alpha-50"
+    }
+  },
+  "color-lime-soft-alpha-70": {
+    "$type": "color",
+    "$value": "rgba(239, 255, 200, 0.70)",
+    "$description": "Lima suave a 70%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-soft-alpha-70"
+    }
+  },
+  "color-lime-soft-alpha-75": {
+    "$type": "color",
+    "$value": "rgba(239, 255, 200, 0.75)",
+    "$description": "Lima suave a 75%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-soft-alpha-75"
+    }
+  },
+  "color-lime-soft-alpha-80": {
+    "$type": "color",
+    "$value": "rgba(239, 255, 200, 0.80)",
+    "$description": "Lima suave a 80%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-lime-soft-alpha-80"
+    }
+  },
+  "color-danger-alpha-10": {
+    "$type": "color",
+    "$value": "rgba(255, 185, 185, 0.10)",
+    "$description": "Perigo a 10%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-danger-alpha-10"
+    }
+  },
+  "color-ink-alpha-94": {
+    "$type": "color",
+    "$value": "rgba(18, 25, 19, 0.94)",
+    "$description": "Vidro da navegação a 94%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "color-ink-alpha-94"
+    }
+  },
+  "font-family-sans": {
+    "$type": "string",
+    "$value": "Plus Jakarta Sans",
+    "$description": "Família de texto e títulos.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-family-sans"
+    }
+  },
+  "font-family-mono": {
+    "$type": "string",
+    "$value": "IBM Plex Mono",
+    "$description": "Família de eyebrow e selos.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-family-mono"
+    }
+  },
+  "font-weight-400": {
+    "$type": "number",
+    "$value": 400,
+    "$description": "Regular. Texto sem peso explícito.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-weight-400"
+    }
+  },
+  "font-weight-500": {
+    "$type": "number",
+    "$value": 500,
+    "$description": "Medium. Mono e rótulos.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-weight-500"
+    }
+  },
+  "font-weight-600": {
+    "$type": "number",
+    "$value": 600,
+    "$description": "Semibold. Títulos e valores.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-weight-600"
+    }
+  },
+  "font-weight-650": {
+    "$type": "number",
+    "$value": 650,
+    "$description": "Semibold alto. Display.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-weight-650"
+    }
+  },
+  "font-weight-700": {
+    "$type": "number",
+    "$value": 700,
+    "$description": "Bold. Botões e wordmark.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-weight-700"
+    }
+  },
+  "font-weight-750": {
+    "$type": "number",
+    "$value": 750,
+    "$description": "Black. Marca da autenticação.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-weight-750"
+    }
+  },
+  "font-line-height-0-97": {
+    "$type": "number",
+    "$value": 0.97,
+    "$description": "Display da marca, bem fechado.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-0-97"
+    }
+  },
+  "font-line-height-1": {
+    "$type": "number",
+    "$value": 1,
+    "$description": "Valores e números grandes.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-1"
+    }
+  },
+  "font-line-height-1-05": {
+    "$type": "number",
+    "$value": 1.05,
+    "$description": "Títulos de autenticação e assistente.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-1-05"
+    }
+  },
+  "font-line-height-1-1": {
+    "$type": "number",
+    "$value": 1.1,
+    "$description": "Título do header e variação de saldo.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-1-1"
+    }
+  },
+  "font-line-height-1-45": {
+    "$type": "number",
+    "$value": 1.45,
+    "$description": "Nota curta.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-1-45"
+    }
+  },
+  "font-line-height-1-5": {
+    "$type": "number",
+    "$value": 1.5,
+    "$description": "Estado vazio.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-1-5"
+    }
+  },
+  "font-line-height-1-55": {
+    "$type": "number",
+    "$value": 1.55,
+    "$description": "Texto de apoio da autenticação.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-1-55"
+    }
+  },
+  "font-line-height-1-6": {
+    "$type": "number",
+    "$value": 1.6,
+    "$description": "Texto da marca no desktop.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-1-6"
+    }
+  },
+  "font-line-height-1-65": {
+    "$type": "number",
+    "$value": 1.65,
+    "$description": "Texto do assistente.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-line-height-1-65"
+    }
+  },
+  "font-letter-spacing-tight-7": {
+    "$type": "string",
+    "$value": "-0.07em",
+    "$description": "Tracking do hero de autenticação.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-tight-7"
+    }
+  },
+  "font-letter-spacing-tight-6": {
+    "$type": "string",
+    "$value": "-0.065em",
+    "$description": "Tracking de saldo e orçamento.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-tight-6"
+    }
+  },
+  "font-letter-spacing-tight-5": {
+    "$type": "string",
+    "$value": "-0.06em",
+    "$description": "Tracking de título e valor de formulário.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-tight-5"
+    }
+  },
+  "font-letter-spacing-tight-4": {
+    "$type": "string",
+    "$value": "-0.055em",
+    "$description": "Tracking de wordmark e notas.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-tight-4"
+    }
+  },
+  "font-letter-spacing-tight-3": {
+    "$type": "string",
+    "$value": "-0.05em",
+    "$description": "Tracking de valor de meta.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-tight-3"
+    }
+  },
+  "font-letter-spacing-tight-2": {
+    "$type": "string",
+    "$value": "-0.045em",
+    "$description": "Tracking do header e do sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-tight-2"
+    }
+  },
+  "font-letter-spacing-tight-1": {
+    "$type": "string",
+    "$value": "-0.04em",
+    "$description": "Tracking de título de seção e mini marca.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-tight-1"
+    }
+  },
+  "font-letter-spacing-0": {
+    "$type": "string",
+    "$value": "0em",
+    "$description": "Tracking neutro.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-0"
+    }
+  },
+  "font-letter-spacing-wide-1": {
+    "$type": "string",
+    "$value": "0.08em",
+    "$description": "Selo do assistente.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-wide-1"
+    }
+  },
+  "font-letter-spacing-wide-2": {
+    "$type": "string",
+    "$value": "0.09em",
+    "$description": "Eyebrow.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-letter-spacing-wide-2"
+    }
+  },
+  "font-size-9": {
+    "$type": "dimension",
+    "$value": "9px",
+    "$description": "Tamanho de fonte 9px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-9"
+    }
+  },
+  "font-size-10": {
+    "$type": "dimension",
+    "$value": "10px",
+    "$description": "Tamanho de fonte 10px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-10"
+    }
+  },
+  "font-size-11": {
+    "$type": "dimension",
+    "$value": "11px",
+    "$description": "Tamanho de fonte 11px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-11"
+    }
+  },
+  "font-size-12": {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "Tamanho de fonte 12px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-12"
+    }
+  },
+  "font-size-13": {
+    "$type": "dimension",
+    "$value": "13px",
+    "$description": "Tamanho de fonte 13px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-13"
+    }
+  },
+  "font-size-14": {
+    "$type": "dimension",
+    "$value": "14px",
+    "$description": "Tamanho de fonte 14px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-14"
+    }
+  },
+  "font-size-15": {
+    "$type": "dimension",
+    "$value": "15px",
+    "$description": "Tamanho de fonte 15px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-15"
+    }
+  },
+  "font-size-16": {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "Tamanho de fonte 16px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-16"
+    }
+  },
+  "font-size-18": {
+    "$type": "dimension",
+    "$value": "18px",
+    "$description": "Tamanho de fonte 18px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-18"
+    }
+  },
+  "font-size-20": {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "Tamanho de fonte 20px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-20"
+    }
+  },
+  "font-size-22": {
+    "$type": "dimension",
+    "$value": "22px",
+    "$description": "Tamanho de fonte 22px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-22"
+    }
+  },
+  "font-size-24": {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "Tamanho de fonte 24px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-24"
+    }
+  },
+  "font-size-26": {
+    "$type": "dimension",
+    "$value": "26px",
+    "$description": "Tamanho de fonte 26px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-26"
+    }
+  },
+  "font-size-30": {
+    "$type": "dimension",
+    "$value": "30px",
+    "$description": "Tamanho de fonte 30px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-30"
+    }
+  },
+  "font-size-32": {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "Tamanho de fonte 32px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-32"
+    }
+  },
+  "font-size-34": {
+    "$type": "dimension",
+    "$value": "34px",
+    "$description": "Tamanho de fonte 34px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-34"
+    }
+  },
+  "font-size-40": {
+    "$type": "dimension",
+    "$value": "40px",
+    "$description": "Tamanho de fonte 40px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-40"
+    }
+  },
+  "font-size-45": {
+    "$type": "dimension",
+    "$value": "45px",
+    "$description": "Tamanho de fonte 45px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-45"
+    }
+  },
+  "font-size-48": {
+    "$type": "dimension",
+    "$value": "48px",
+    "$description": "Tamanho de fonte 48px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-48"
+    }
+  },
+  "font-size-51": {
+    "$type": "dimension",
+    "$value": "51px",
+    "$description": "Tamanho de fonte 51px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-51"
+    }
+  },
+  "font-size-53": {
+    "$type": "dimension",
+    "$value": "53px",
+    "$description": "Tamanho de fonte 53px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-53"
+    }
+  },
+  "font-size-56": {
+    "$type": "dimension",
+    "$value": "56px",
+    "$description": "Tamanho de fonte 56px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-56"
+    }
+  },
+  "font-size-64": {
+    "$type": "dimension",
+    "$value": "64px",
+    "$description": "Tamanho de fonte 64px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-64"
+    }
+  },
+  "font-size-66": {
+    "$type": "dimension",
+    "$value": "66px",
+    "$description": "Tamanho de fonte 66px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-66"
+    }
+  },
+  "font-size-72": {
+    "$type": "dimension",
+    "$value": "72px",
+    "$description": "Tamanho de fonte 72px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-72"
+    }
+  },
+  "font-size-91": {
+    "$type": "dimension",
+    "$value": "91px",
+    "$description": "Tamanho de fonte 91px na escala medida da interface.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "font-size-91"
+    }
+  },
+  "space-0": {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "Gap positivo de 0px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-0"
+    }
+  },
+  "space-1": {
+    "$type": "dimension",
+    "$value": "1px",
+    "$description": "Gap positivo de 1px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-1"
+    }
+  },
+  "space-negative-1": {
+    "$type": "dimension",
+    "$value": "-1px",
+    "$description": "Gap negativo de 1px. Espelha space-1.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-1"
+    }
+  },
+  "space-2": {
+    "$type": "dimension",
+    "$value": "2px",
+    "$description": "Gap positivo de 2px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-2"
+    }
+  },
+  "space-negative-2": {
+    "$type": "dimension",
+    "$value": "-2px",
+    "$description": "Gap negativo de 2px. Espelha space-2.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-2"
+    }
+  },
+  "space-1-6": {
+    "$type": "dimension",
+    "$value": "1.6px",
+    "$description": "Gap positivo de 1.6px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-1-6"
+    }
+  },
+  "space-negative-1-6": {
+    "$type": "dimension",
+    "$value": "-1.6px",
+    "$description": "Gap negativo de 1.6px. Espelha space-1-6.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-1-6"
+    }
+  },
+  "space-2-4": {
+    "$type": "dimension",
+    "$value": "2.4px",
+    "$description": "Gap positivo de 2.4px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-2-4"
+    }
+  },
+  "space-negative-2-4": {
+    "$type": "dimension",
+    "$value": "-2.4px",
+    "$description": "Gap negativo de 2.4px. Espelha space-2-4.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-2-4"
+    }
+  },
+  "space-2-9": {
+    "$type": "dimension",
+    "$value": "2.9px",
+    "$description": "Gap positivo de 2.9px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-2-9"
+    }
+  },
+  "space-negative-2-9": {
+    "$type": "dimension",
+    "$value": "-2.9px",
+    "$description": "Gap negativo de 2.9px. Espelha space-2-9.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-2-9"
+    }
+  },
+  "space-3-2": {
+    "$type": "dimension",
+    "$value": "3.2px",
+    "$description": "Gap positivo de 3.2px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-3-2"
+    }
+  },
+  "space-negative-3-2": {
+    "$type": "dimension",
+    "$value": "-3.2px",
+    "$description": "Gap negativo de 3.2px. Espelha space-3-2.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-3-2"
+    }
+  },
+  "space-4": {
+    "$type": "dimension",
+    "$value": "4px",
+    "$description": "Gap positivo de 4px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-4"
+    }
+  },
+  "space-negative-4": {
+    "$type": "dimension",
+    "$value": "-4px",
+    "$description": "Gap negativo de 4px. Espelha space-4.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-4"
+    }
+  },
+  "space-4-8": {
+    "$type": "dimension",
+    "$value": "4.8px",
+    "$description": "Gap positivo de 4.8px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-4-8"
+    }
+  },
+  "space-negative-4-8": {
+    "$type": "dimension",
+    "$value": "-4.8px",
+    "$description": "Gap negativo de 4.8px. Espelha space-4-8.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-4-8"
+    }
+  },
+  "space-5-6": {
+    "$type": "dimension",
+    "$value": "5.6px",
+    "$description": "Gap positivo de 5.6px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-5-6"
+    }
+  },
+  "space-negative-5-6": {
+    "$type": "dimension",
+    "$value": "-5.6px",
+    "$description": "Gap negativo de 5.6px. Espelha space-5-6.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-5-6"
+    }
+  },
+  "space-6-4": {
+    "$type": "dimension",
+    "$value": "6.4px",
+    "$description": "Gap positivo de 6.4px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-6-4"
+    }
+  },
+  "space-negative-6-4": {
+    "$type": "dimension",
+    "$value": "-6.4px",
+    "$description": "Gap negativo de 6.4px. Espelha space-6-4.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-6-4"
+    }
+  },
+  "space-7-2": {
+    "$type": "dimension",
+    "$value": "7.2px",
+    "$description": "Gap positivo de 7.2px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-7-2"
+    }
+  },
+  "space-negative-7-2": {
+    "$type": "dimension",
+    "$value": "-7.2px",
+    "$description": "Gap negativo de 7.2px. Espelha space-7-2.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-7-2"
+    }
+  },
+  "space-8": {
+    "$type": "dimension",
+    "$value": "8px",
+    "$description": "Gap positivo de 8px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-8"
+    }
+  },
+  "space-negative-8": {
+    "$type": "dimension",
+    "$value": "-8px",
+    "$description": "Gap negativo de 8px. Espelha space-8.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-8"
+    }
+  },
+  "space-8-8": {
+    "$type": "dimension",
+    "$value": "8.8px",
+    "$description": "Gap positivo de 8.8px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-8-8"
+    }
+  },
+  "space-negative-8-8": {
+    "$type": "dimension",
+    "$value": "-8.8px",
+    "$description": "Gap negativo de 8.8px. Espelha space-8-8.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-8-8"
+    }
+  },
+  "space-9-6": {
+    "$type": "dimension",
+    "$value": "9.6px",
+    "$description": "Gap positivo de 9.6px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-9-6"
+    }
+  },
+  "space-negative-9-6": {
+    "$type": "dimension",
+    "$value": "-9.6px",
+    "$description": "Gap negativo de 9.6px. Espelha space-9-6.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-9-6"
+    }
+  },
+  "space-10-4": {
+    "$type": "dimension",
+    "$value": "10.4px",
+    "$description": "Gap positivo de 10.4px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-10-4"
+    }
+  },
+  "space-negative-10-4": {
+    "$type": "dimension",
+    "$value": "-10.4px",
+    "$description": "Gap negativo de 10.4px. Espelha space-10-4.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-10-4"
+    }
+  },
+  "space-11-2": {
+    "$type": "dimension",
+    "$value": "11.2px",
+    "$description": "Gap positivo de 11.2px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-11-2"
+    }
+  },
+  "space-negative-11-2": {
+    "$type": "dimension",
+    "$value": "-11.2px",
+    "$description": "Gap negativo de 11.2px. Espelha space-11-2.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-11-2"
+    }
+  },
+  "space-12": {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "Gap positivo de 12px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-12"
+    }
+  },
+  "space-negative-12": {
+    "$type": "dimension",
+    "$value": "-12px",
+    "$description": "Gap negativo de 12px. Espelha space-12.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-12"
+    }
+  },
+  "space-12-8": {
+    "$type": "dimension",
+    "$value": "12.8px",
+    "$description": "Gap positivo de 12.8px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-12-8"
+    }
+  },
+  "space-negative-12-8": {
+    "$type": "dimension",
+    "$value": "-12.8px",
+    "$description": "Gap negativo de 12.8px. Espelha space-12-8.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-12-8"
+    }
+  },
+  "space-13-6": {
+    "$type": "dimension",
+    "$value": "13.6px",
+    "$description": "Gap positivo de 13.6px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-13-6"
+    }
+  },
+  "space-negative-13-6": {
+    "$type": "dimension",
+    "$value": "-13.6px",
+    "$description": "Gap negativo de 13.6px. Espelha space-13-6.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-13-6"
+    }
+  },
+  "space-14-4": {
+    "$type": "dimension",
+    "$value": "14.4px",
+    "$description": "Gap positivo de 14.4px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-14-4"
+    }
+  },
+  "space-negative-14-4": {
+    "$type": "dimension",
+    "$value": "-14.4px",
+    "$description": "Gap negativo de 14.4px. Espelha space-14-4.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-14-4"
+    }
+  },
+  "space-16": {
+    "$type": "dimension",
+    "$value": "16px",
+    "$description": "Gap positivo de 16px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-16"
+    }
+  },
+  "space-negative-16": {
+    "$type": "dimension",
+    "$value": "-16px",
+    "$description": "Gap negativo de 16px. Espelha space-16.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-16"
+    }
+  },
+  "space-17-6": {
+    "$type": "dimension",
+    "$value": "17.6px",
+    "$description": "Gap positivo de 17.6px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-17-6"
+    }
+  },
+  "space-negative-17-6": {
+    "$type": "dimension",
+    "$value": "-17.6px",
+    "$description": "Gap negativo de 17.6px. Espelha space-17-6.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-17-6"
+    }
+  },
+  "space-18-4": {
+    "$type": "dimension",
+    "$value": "18.4px",
+    "$description": "Gap positivo de 18.4px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-18-4"
+    }
+  },
+  "space-negative-18-4": {
+    "$type": "dimension",
+    "$value": "-18.4px",
+    "$description": "Gap negativo de 18.4px. Espelha space-18-4.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-18-4"
+    }
+  },
+  "space-19-2": {
+    "$type": "dimension",
+    "$value": "19.2px",
+    "$description": "Gap positivo de 19.2px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-19-2"
+    }
+  },
+  "space-negative-19-2": {
+    "$type": "dimension",
+    "$value": "-19.2px",
+    "$description": "Gap negativo de 19.2px. Espelha space-19-2.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-19-2"
+    }
+  },
+  "space-20": {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "Gap positivo de 20px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-20"
+    }
+  },
+  "space-negative-20": {
+    "$type": "dimension",
+    "$value": "-20px",
+    "$description": "Gap negativo de 20px. Espelha space-20.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-20"
+    }
+  },
+  "space-20-8": {
+    "$type": "dimension",
+    "$value": "20.8px",
+    "$description": "Gap positivo de 20.8px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-20-8"
+    }
+  },
+  "space-negative-20-8": {
+    "$type": "dimension",
+    "$value": "-20.8px",
+    "$description": "Gap negativo de 20.8px. Espelha space-20-8.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-20-8"
+    }
+  },
+  "space-21-6": {
+    "$type": "dimension",
+    "$value": "21.6px",
+    "$description": "Gap positivo de 21.6px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-21-6"
+    }
+  },
+  "space-negative-21-6": {
+    "$type": "dimension",
+    "$value": "-21.6px",
+    "$description": "Gap negativo de 21.6px. Espelha space-21-6.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-21-6"
+    }
+  },
+  "space-22-4": {
+    "$type": "dimension",
+    "$value": "22.4px",
+    "$description": "Gap positivo de 22.4px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-22-4"
+    }
+  },
+  "space-negative-22-4": {
+    "$type": "dimension",
+    "$value": "-22.4px",
+    "$description": "Gap negativo de 22.4px. Espelha space-22-4.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-22-4"
+    }
+  },
+  "space-23-2": {
+    "$type": "dimension",
+    "$value": "23.2px",
+    "$description": "Gap positivo de 23.2px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-23-2"
+    }
+  },
+  "space-negative-23-2": {
+    "$type": "dimension",
+    "$value": "-23.2px",
+    "$description": "Gap negativo de 23.2px. Espelha space-23-2.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-23-2"
+    }
+  },
+  "space-24": {
+    "$type": "dimension",
+    "$value": "24px",
+    "$description": "Gap positivo de 24px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-24"
+    }
+  },
+  "space-negative-24": {
+    "$type": "dimension",
+    "$value": "-24px",
+    "$description": "Gap negativo de 24px. Espelha space-24.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-24"
+    }
+  },
+  "space-26-4": {
+    "$type": "dimension",
+    "$value": "26.4px",
+    "$description": "Gap positivo de 26.4px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-26-4"
+    }
+  },
+  "space-negative-26-4": {
+    "$type": "dimension",
+    "$value": "-26.4px",
+    "$description": "Gap negativo de 26.4px. Espelha space-26-4.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-26-4"
+    }
+  },
+  "space-27-2": {
+    "$type": "dimension",
+    "$value": "27.2px",
+    "$description": "Gap positivo de 27.2px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-27-2"
+    }
+  },
+  "space-negative-27-2": {
+    "$type": "dimension",
+    "$value": "-27.2px",
+    "$description": "Gap negativo de 27.2px. Espelha space-27-2.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-27-2"
+    }
+  },
+  "space-28": {
+    "$type": "dimension",
+    "$value": "28px",
+    "$description": "Gap positivo de 28px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-28"
+    }
+  },
+  "space-negative-28": {
+    "$type": "dimension",
+    "$value": "-28px",
+    "$description": "Gap negativo de 28px. Espelha space-28.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-28"
+    }
+  },
+  "space-32": {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "Gap positivo de 32px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-32"
+    }
+  },
+  "space-negative-32": {
+    "$type": "dimension",
+    "$value": "-32px",
+    "$description": "Gap negativo de 32px. Espelha space-32.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-32"
+    }
+  },
+  "space-36": {
+    "$type": "dimension",
+    "$value": "36px",
+    "$description": "Gap positivo de 36px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-36"
+    }
+  },
+  "space-negative-36": {
+    "$type": "dimension",
+    "$value": "-36px",
+    "$description": "Gap negativo de 36px. Espelha space-36.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-36"
+    }
+  },
+  "space-40": {
+    "$type": "dimension",
+    "$value": "40px",
+    "$description": "Gap positivo de 40px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-40"
+    }
+  },
+  "space-negative-40": {
+    "$type": "dimension",
+    "$value": "-40px",
+    "$description": "Gap negativo de 40px. Espelha space-40.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-40"
+    }
+  },
+  "space-44": {
+    "$type": "dimension",
+    "$value": "44px",
+    "$description": "Gap positivo de 44px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-44"
+    }
+  },
+  "space-negative-44": {
+    "$type": "dimension",
+    "$value": "-44px",
+    "$description": "Gap negativo de 44px. Espelha space-44.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-44"
+    }
+  },
+  "space-48": {
+    "$type": "dimension",
+    "$value": "48px",
+    "$description": "Gap positivo de 48px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-48"
+    }
+  },
+  "space-negative-48": {
+    "$type": "dimension",
+    "$value": "-48px",
+    "$description": "Gap negativo de 48px. Espelha space-48.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-48"
+    }
+  },
+  "space-52": {
+    "$type": "dimension",
+    "$value": "52px",
+    "$description": "Gap positivo de 52px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-52"
+    }
+  },
+  "space-negative-52": {
+    "$type": "dimension",
+    "$value": "-52px",
+    "$description": "Gap negativo de 52px. Espelha space-52.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-52"
+    }
+  },
+  "space-56": {
+    "$type": "dimension",
+    "$value": "56px",
+    "$description": "Gap positivo de 56px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-56"
+    }
+  },
+  "space-negative-56": {
+    "$type": "dimension",
+    "$value": "-56px",
+    "$description": "Gap negativo de 56px. Espelha space-56.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-56"
+    }
+  },
+  "space-64": {
+    "$type": "dimension",
+    "$value": "64px",
+    "$description": "Gap positivo de 64px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-64"
+    }
+  },
+  "space-negative-64": {
+    "$type": "dimension",
+    "$value": "-64px",
+    "$description": "Gap negativo de 64px. Espelha space-64.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-64"
+    }
+  },
+  "space-72": {
+    "$type": "dimension",
+    "$value": "72px",
+    "$description": "Gap positivo de 72px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-72"
+    }
+  },
+  "space-negative-72": {
+    "$type": "dimension",
+    "$value": "-72px",
+    "$description": "Gap negativo de 72px. Espelha space-72.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-72"
+    }
+  },
+  "space-80": {
+    "$type": "dimension",
+    "$value": "80px",
+    "$description": "Gap positivo de 80px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-80"
+    }
+  },
+  "space-negative-80": {
+    "$type": "dimension",
+    "$value": "-80px",
+    "$description": "Gap negativo de 80px. Espelha space-80.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-80"
+    }
+  },
+  "space-96": {
+    "$type": "dimension",
+    "$value": "96px",
+    "$description": "Gap positivo de 96px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-96"
+    }
+  },
+  "space-negative-96": {
+    "$type": "dimension",
+    "$value": "-96px",
+    "$description": "Gap negativo de 96px. Espelha space-96.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-96"
+    }
+  },
+  "space-112": {
+    "$type": "dimension",
+    "$value": "112px",
+    "$description": "Gap positivo de 112px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-112"
+    }
+  },
+  "space-negative-112": {
+    "$type": "dimension",
+    "$value": "-112px",
+    "$description": "Gap negativo de 112px. Espelha space-112.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-112"
+    }
+  },
+  "space-128": {
+    "$type": "dimension",
+    "$value": "128px",
+    "$description": "Gap positivo de 128px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-128"
+    }
+  },
+  "space-negative-128": {
+    "$type": "dimension",
+    "$value": "-128px",
+    "$description": "Gap negativo de 128px. Espelha space-128.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-128"
+    }
+  },
+  "space-144": {
+    "$type": "dimension",
+    "$value": "144px",
+    "$description": "Gap positivo de 144px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-144"
+    }
+  },
+  "space-negative-144": {
+    "$type": "dimension",
+    "$value": "-144px",
+    "$description": "Gap negativo de 144px. Espelha space-144.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-144"
+    }
+  },
+  "space-160": {
+    "$type": "dimension",
+    "$value": "160px",
+    "$description": "Gap positivo de 160px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-160"
+    }
+  },
+  "space-negative-160": {
+    "$type": "dimension",
+    "$value": "-160px",
+    "$description": "Gap negativo de 160px. Espelha space-160.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-160"
+    }
+  },
+  "space-176": {
+    "$type": "dimension",
+    "$value": "176px",
+    "$description": "Gap positivo de 176px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-176"
+    }
+  },
+  "space-negative-176": {
+    "$type": "dimension",
+    "$value": "-176px",
+    "$description": "Gap negativo de 176px. Espelha space-176.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-176"
+    }
+  },
+  "space-192": {
+    "$type": "dimension",
+    "$value": "192px",
+    "$description": "Gap positivo de 192px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-192"
+    }
+  },
+  "space-negative-192": {
+    "$type": "dimension",
+    "$value": "-192px",
+    "$description": "Gap negativo de 192px. Espelha space-192.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-192"
+    }
+  },
+  "space-208": {
+    "$type": "dimension",
+    "$value": "208px",
+    "$description": "Gap positivo de 208px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-208"
+    }
+  },
+  "space-negative-208": {
+    "$type": "dimension",
+    "$value": "-208px",
+    "$description": "Gap negativo de 208px. Espelha space-208.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-208"
+    }
+  },
+  "space-224": {
+    "$type": "dimension",
+    "$value": "224px",
+    "$description": "Gap positivo de 224px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-224"
+    }
+  },
+  "space-negative-224": {
+    "$type": "dimension",
+    "$value": "-224px",
+    "$description": "Gap negativo de 224px. Espelha space-224.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-224"
+    }
+  },
+  "space-240": {
+    "$type": "dimension",
+    "$value": "240px",
+    "$description": "Gap positivo de 240px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-240"
+    }
+  },
+  "space-negative-240": {
+    "$type": "dimension",
+    "$value": "-240px",
+    "$description": "Gap negativo de 240px. Espelha space-240.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-240"
+    }
+  },
+  "space-256": {
+    "$type": "dimension",
+    "$value": "256px",
+    "$description": "Gap positivo de 256px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-256"
+    }
+  },
+  "space-negative-256": {
+    "$type": "dimension",
+    "$value": "-256px",
+    "$description": "Gap negativo de 256px. Espelha space-256.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-256"
+    }
+  },
+  "space-288": {
+    "$type": "dimension",
+    "$value": "288px",
+    "$description": "Gap positivo de 288px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-288"
+    }
+  },
+  "space-negative-288": {
+    "$type": "dimension",
+    "$value": "-288px",
+    "$description": "Gap negativo de 288px. Espelha space-288.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-288"
+    }
+  },
+  "space-320": {
+    "$type": "dimension",
+    "$value": "320px",
+    "$description": "Gap positivo de 320px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-320"
+    }
+  },
+  "space-negative-320": {
+    "$type": "dimension",
+    "$value": "-320px",
+    "$description": "Gap negativo de 320px. Espelha space-320.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-320"
+    }
+  },
+  "space-352": {
+    "$type": "dimension",
+    "$value": "352px",
+    "$description": "Gap positivo de 352px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-352"
+    }
+  },
+  "space-negative-352": {
+    "$type": "dimension",
+    "$value": "-352px",
+    "$description": "Gap negativo de 352px. Espelha space-352.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-352"
+    }
+  },
+  "space-384": {
+    "$type": "dimension",
+    "$value": "384px",
+    "$description": "Gap positivo de 384px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-384"
+    }
+  },
+  "space-negative-384": {
+    "$type": "dimension",
+    "$value": "-384px",
+    "$description": "Gap negativo de 384px. Espelha space-384.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-384"
+    }
+  },
+  "space-416": {
+    "$type": "dimension",
+    "$value": "416px",
+    "$description": "Gap positivo de 416px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-416"
+    }
+  },
+  "space-negative-416": {
+    "$type": "dimension",
+    "$value": "-416px",
+    "$description": "Gap negativo de 416px. Espelha space-416.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-416"
+    }
+  },
+  "space-448": {
+    "$type": "dimension",
+    "$value": "448px",
+    "$description": "Gap positivo de 448px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-448"
+    }
+  },
+  "space-negative-448": {
+    "$type": "dimension",
+    "$value": "-448px",
+    "$description": "Gap negativo de 448px. Espelha space-448.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-448"
+    }
+  },
+  "space-480": {
+    "$type": "dimension",
+    "$value": "480px",
+    "$description": "Gap positivo de 480px.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-480"
+    }
+  },
+  "space-negative-480": {
+    "$type": "dimension",
+    "$value": "-480px",
+    "$description": "Gap negativo de 480px. Espelha space-480.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "space-negative-480"
+    }
+  },
+  "stroke-0": {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "Sem traço.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "stroke-0"
+    }
+  },
+  "stroke-1": {
+    "$type": "dimension",
+    "$value": "1px",
+    "$description": "Hairline. Borda padrão de 1px (0.0625rem).",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "stroke-1"
+    }
+  },
+  "stroke-2": {
+    "$type": "dimension",
+    "$value": "2px",
+    "$description": "Foco. Outline de 2px (0.125rem).",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "stroke-2"
+    }
+  },
+  "stroke-3-2": {
+    "$type": "dimension",
+    "$value": "3.2px",
+    "$description": "Progresso fino. 0.2rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "stroke-3-2"
+    }
+  },
+  "stroke-3-5": {
+    "$type": "dimension",
+    "$value": "3.52px",
+    "$description": "Anel do item em destaque na navegação. 0.22rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "stroke-3-5"
+    }
+  },
+  "stroke-5-6": {
+    "$type": "dimension",
+    "$value": "5.6px",
+    "$description": "Anel do orçamento. 0.35rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "stroke-5-6"
+    }
+  },
+  "stroke-8": {
+    "$type": "dimension",
+    "$value": "8px",
+    "$description": "Trilha de progresso. 0.5rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "stroke-8"
+    }
+  },
+  "radius-0": {
+    "$type": "dimension",
+    "$value": "0px",
+    "$description": "Sem raio.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-0"
+    }
+  },
+  "radius-3": {
+    "$type": "dimension",
+    "$value": "3.2px",
+    "$description": "Barras do preview de autenticação. 0.2rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-3"
+    }
+  },
+  "radius-6": {
+    "$type": "dimension",
+    "$value": "5.6px",
+    "$description": "Chip do cartão. 0.35rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-6"
+    }
+  },
+  "radius-10": {
+    "$type": "dimension",
+    "$value": "9.6px",
+    "$description": "Aba de autenticação. 0.6rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-10"
+    }
+  },
+  "radius-10-4": {
+    "$type": "dimension",
+    "$value": "10.4px",
+    "$description": "Ícone da navegação. 0.65rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-10-4"
+    }
+  },
+  "radius-12": {
+    "$type": "dimension",
+    "$value": "12px",
+    "$description": "Controle. 0.75rem. Raio sm.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-12"
+    }
+  },
+  "radius-18": {
+    "$type": "dimension",
+    "$value": "17.6px",
+    "$description": "Marca do assistente. 1.1rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-18"
+    }
+  },
+  "radius-20": {
+    "$type": "dimension",
+    "$value": "20px",
+    "$description": "Card e tile. 1.25rem. Raio md.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-20"
+    }
+  },
+  "radius-22": {
+    "$type": "dimension",
+    "$value": "21.6px",
+    "$description": "Navegação inferior. 1.35rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-22"
+    }
+  },
+  "radius-26": {
+    "$type": "dimension",
+    "$value": "26px",
+    "$description": "Painel. 1.625rem. Raio lg.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-26"
+    }
+  },
+  "radius-32": {
+    "$type": "dimension",
+    "$value": "32px",
+    "$description": "Sheet. 2rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-32"
+    }
+  },
+  "radius-34": {
+    "$type": "dimension",
+    "$value": "34px",
+    "$description": "Hero. 2.125rem. Raio xl.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-34"
+    }
+  },
+  "radius-pill": {
+    "$type": "dimension",
+    "$value": "999px",
+    "$description": "Pílula.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-pill"
+    }
+  },
+  "radius-full": {
+    "$type": "dimension",
+    "$value": "50%",
+    "$description": "Círculo.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "radius-full"
+    }
+  },
+  "shadow-overlay": {
+    "$type": "string",
+    "$value": "0 28px 80px rgba(0, 0, 0, 0.48)",
+    "$description": "Sombra de navegação, sheet e toast.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "shadow-overlay"
+    }
+  },
+  "shadow-card": {
+    "$type": "string",
+    "$value": "0 22.4px 48px rgba(0, 0, 0, 0.3)",
+    "$description": "Sombra do cartão na carteira.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "shadow-card"
+    }
+  },
+  "shadow-glow": {
+    "$type": "string",
+    "$value": "0 0 0 4.48px rgba(186, 245, 46, 0.13), 0 0 20px rgba(186, 245, 46, 0.18)",
+    "$description": "Halo do wordmark.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "shadow-glow"
+    }
+  },
+  "shadow-mark": {
+    "$type": "string",
+    "$value": "0 0 48px rgba(186, 245, 46, 0.18)",
+    "$description": "Halo da marca do assistente.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "shadow-mark"
+    }
+  },
+  "opacity-0": {
+    "$type": "number",
+    "$value": 0,
+    "$description": "Opacidade 0%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-0"
+    }
+  },
+  "opacity-5": {
+    "$type": "number",
+    "$value": 0.05,
+    "$description": "Opacidade 5%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-5"
+    }
+  },
+  "opacity-7": {
+    "$type": "number",
+    "$value": 0.07,
+    "$description": "Opacidade 7%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-7"
+    }
+  },
+  "opacity-9": {
+    "$type": "number",
+    "$value": 0.09,
+    "$description": "Opacidade 9%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-9"
+    }
+  },
+  "opacity-10": {
+    "$type": "number",
+    "$value": 0.1,
+    "$description": "Opacidade 10%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-10"
+    }
+  },
+  "opacity-12": {
+    "$type": "number",
+    "$value": 0.12,
+    "$description": "Opacidade 12%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-12"
+    }
+  },
+  "opacity-13": {
+    "$type": "number",
+    "$value": 0.13,
+    "$description": "Opacidade 13%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-13"
+    }
+  },
+  "opacity-14": {
+    "$type": "number",
+    "$value": 0.14,
+    "$description": "Opacidade 14%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-14"
+    }
+  },
+  "opacity-15": {
+    "$type": "number",
+    "$value": 0.15,
+    "$description": "Opacidade 15%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-15"
+    }
+  },
+  "opacity-16": {
+    "$type": "number",
+    "$value": 0.16,
+    "$description": "Opacidade 16%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-16"
+    }
+  },
+  "opacity-18": {
+    "$type": "number",
+    "$value": 0.18,
+    "$description": "Opacidade 18%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-18"
+    }
+  },
+  "opacity-20": {
+    "$type": "number",
+    "$value": 0.2,
+    "$description": "Opacidade 20%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-20"
+    }
+  },
+  "opacity-22": {
+    "$type": "number",
+    "$value": 0.22,
+    "$description": "Opacidade 22%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-22"
+    }
+  },
+  "opacity-25": {
+    "$type": "number",
+    "$value": 0.25,
+    "$description": "Opacidade 25%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-25"
+    }
+  },
+  "opacity-30": {
+    "$type": "number",
+    "$value": 0.3,
+    "$description": "Opacidade 30%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-30"
+    }
+  },
+  "opacity-34": {
+    "$type": "number",
+    "$value": 0.34,
+    "$description": "Opacidade 34%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-34"
+    }
+  },
+  "opacity-35": {
+    "$type": "number",
+    "$value": 0.35,
+    "$description": "Opacidade 35%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-35"
+    }
+  },
+  "opacity-40": {
+    "$type": "number",
+    "$value": 0.4,
+    "$description": "Opacidade 40%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-40"
+    }
+  },
+  "opacity-44": {
+    "$type": "number",
+    "$value": 0.44,
+    "$description": "Opacidade 44%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-44"
+    }
+  },
+  "opacity-45": {
+    "$type": "number",
+    "$value": 0.45,
+    "$description": "Opacidade 45%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-45"
+    }
+  },
+  "opacity-48": {
+    "$type": "number",
+    "$value": 0.48,
+    "$description": "Opacidade 48%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-48"
+    }
+  },
+  "opacity-50": {
+    "$type": "number",
+    "$value": 0.5,
+    "$description": "Opacidade 50%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-50"
+    }
+  },
+  "opacity-52": {
+    "$type": "number",
+    "$value": 0.52,
+    "$description": "Opacidade 52%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-52"
+    }
+  },
+  "opacity-55": {
+    "$type": "number",
+    "$value": 0.55,
+    "$description": "Opacidade 55%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-55"
+    }
+  },
+  "opacity-56": {
+    "$type": "number",
+    "$value": 0.56,
+    "$description": "Opacidade 56%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-56"
+    }
+  },
+  "opacity-58": {
+    "$type": "number",
+    "$value": 0.58,
+    "$description": "Opacidade 58%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-58"
+    }
+  },
+  "opacity-60": {
+    "$type": "number",
+    "$value": 0.6,
+    "$description": "Opacidade 60%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-60"
+    }
+  },
+  "opacity-62": {
+    "$type": "number",
+    "$value": 0.62,
+    "$description": "Opacidade 62%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-62"
+    }
+  },
+  "opacity-64": {
+    "$type": "number",
+    "$value": 0.64,
+    "$description": "Opacidade 64%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-64"
+    }
+  },
+  "opacity-65": {
+    "$type": "number",
+    "$value": 0.65,
+    "$description": "Opacidade 65%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-65"
+    }
+  },
+  "opacity-66": {
+    "$type": "number",
+    "$value": 0.66,
+    "$description": "Opacidade 66%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-66"
+    }
+  },
+  "opacity-70": {
+    "$type": "number",
+    "$value": 0.7,
+    "$description": "Opacidade 70%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-70"
+    }
+  },
+  "opacity-75": {
+    "$type": "number",
+    "$value": 0.75,
+    "$description": "Opacidade 75%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-75"
+    }
+  },
+  "opacity-80": {
+    "$type": "number",
+    "$value": 0.8,
+    "$description": "Opacidade 80%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-80"
+    }
+  },
+  "opacity-85": {
+    "$type": "number",
+    "$value": 0.85,
+    "$description": "Opacidade 85%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-85"
+    }
+  },
+  "opacity-90": {
+    "$type": "number",
+    "$value": 0.9,
+    "$description": "Opacidade 90%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-90"
+    }
+  },
+  "opacity-94": {
+    "$type": "number",
+    "$value": 0.94,
+    "$description": "Opacidade 94%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-94"
+    }
+  },
+  "opacity-95": {
+    "$type": "number",
+    "$value": 0.95,
+    "$description": "Opacidade 95%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-95"
+    }
+  },
+  "opacity-100": {
+    "$type": "number",
+    "$value": 1,
+    "$description": "Opacidade 100%.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "opacity-100"
+    }
+  },
+  "z-index-0": {
+    "$type": "number",
+    "$value": 0,
+    "$description": "Camada 0.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-0"
+    }
+  },
+  "z-index-1": {
+    "$type": "number",
+    "$value": 1,
+    "$description": "Camada 1.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-1"
+    }
+  },
+  "z-index-2": {
+    "$type": "number",
+    "$value": 2,
+    "$description": "Camada 2.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-2"
+    }
+  },
+  "z-index-3": {
+    "$type": "number",
+    "$value": 3,
+    "$description": "Camada 3.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-3"
+    }
+  },
+  "z-index-10": {
+    "$type": "number",
+    "$value": 10,
+    "$description": "Camada 10.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-10"
+    }
+  },
+  "z-index-20": {
+    "$type": "number",
+    "$value": 20,
+    "$description": "Camada 20.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-20"
+    }
+  },
+  "z-index-30": {
+    "$type": "number",
+    "$value": 30,
+    "$description": "Camada 30.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-30"
+    }
+  },
+  "z-index-40": {
+    "$type": "number",
+    "$value": 40,
+    "$description": "Camada 40.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-40"
+    }
+  },
+  "z-index-50": {
+    "$type": "number",
+    "$value": 50,
+    "$description": "Camada 50.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-50"
+    }
+  },
+  "z-index-60": {
+    "$type": "number",
+    "$value": 60,
+    "$description": "Camada 60.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-60"
+    }
+  },
+  "z-index-70": {
+    "$type": "number",
+    "$value": 70,
+    "$description": "Camada 70.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-70"
+    }
+  },
+  "z-index-80": {
+    "$type": "number",
+    "$value": 80,
+    "$description": "Camada 80.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "z-index-80"
+    }
+  },
+  "duration-0": {
+    "$type": "dimension",
+    "$value": "0ms",
+    "$description": "Duração 0ms.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "duration-0"
+    }
+  },
+  "duration-180": {
+    "$type": "dimension",
+    "$value": "180ms",
+    "$description": "Duração 180ms.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "duration-180"
+    }
+  },
+  "duration-240": {
+    "$type": "dimension",
+    "$value": "240ms",
+    "$description": "Duração 240ms.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "duration-240"
+    }
+  },
+  "duration-300": {
+    "$type": "dimension",
+    "$value": "300ms",
+    "$description": "Duração 300ms.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "duration-300"
+    }
+  },
+  "easing-standard": {
+    "$type": "string",
+    "$value": "ease",
+    "$description": "Transição de botão, borda e toggle.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "easing-standard"
+    }
+  },
+  "easing-emphasized": {
+    "$type": "string",
+    "$value": "cubic-bezier(0.22, 0.8, 0.22, 1)",
+    "$description": "Entrada do sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "easing-emphasized"
+    }
+  },
+  "breakpoint-md": {
+    "$type": "dimension",
+    "$value": "800px",
+    "$description": "Desktop inicial. 50rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "breakpoint-md"
+    }
+  },
+  "breakpoint-lg": {
+    "$type": "dimension",
+    "$value": "1100px",
+    "$description": "Desktop largo. 68.75rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "breakpoint-lg"
+    }
+  },
+  "breakpoint-xl": {
+    "$type": "dimension",
+    "$value": "1920px",
+    "$description": "Tela muito larga. 120rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "breakpoint-xl"
+    }
+  },
+  "size-52": {
+    "$type": "dimension",
+    "$value": "52px",
+    "$description": "Altura mínima do botão. 3.25rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "size-52"
+    }
+  },
+  "size-51-2": {
+    "$type": "dimension",
+    "$value": "51.2px",
+    "$description": "Altura mínima do campo. 3.2rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "size-51-2"
+    }
+  },
+  "size-69-6": {
+    "$type": "dimension",
+    "$value": "69.6px",
+    "$description": "Altura da navegação. 4.35rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "size-69-6"
+    }
+  },
+  "size-1376": {
+    "$type": "dimension",
+    "$value": "1376px",
+    "$description": "Largura máxima do miolo. 86rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "size-1376"
+    }
+  },
+  "size-1600": {
+    "$type": "dimension",
+    "$value": "1600px",
+    "$description": "Largura máxima em tela muito larga. 100rem.",
+    "$extensions": {
+      "com.eskgo.collection": "primitives",
+      "com.eskgo.name": "size-1600"
+    }
+  }
+}

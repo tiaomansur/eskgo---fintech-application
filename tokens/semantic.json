@@ -1,0 +1,1289 @@
+{
+  "color-bg-canvas": {
+    "$type": "color",
+    "$value": "{color-ink-950}",
+    "$description": "Fundo da página.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-canvas"
+    }
+  },
+  "color-bg-surface": {
+    "$type": "color",
+    "$value": "{color-ink-900}",
+    "$description": "Painel, formulário e resumo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-surface"
+    }
+  },
+  "color-bg-surface-raised": {
+    "$type": "color",
+    "$value": "{color-ink-850}",
+    "$description": "Sheet e botão de ícone.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-surface-raised"
+    }
+  },
+  "color-bg-row": {
+    "$type": "color",
+    "$value": "{color-ink-800}",
+    "$description": "Linha, input, aba ativa e tile.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-row"
+    }
+  },
+  "color-bg-nav": {
+    "$type": "color",
+    "$value": "{color-ink-alpha-94}",
+    "$description": "Vidro da navegação inferior.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-nav"
+    }
+  },
+  "color-bg-stage-start": {
+    "$type": "color",
+    "$value": "{color-black-700}",
+    "$description": "Palco de cartões, início.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-stage-start"
+    }
+  },
+  "color-bg-stage-end": {
+    "$type": "color",
+    "$value": "{color-black-800}",
+    "$description": "Palco de cartões, fim.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-stage-end"
+    }
+  },
+  "color-bg-scrim": {
+    "$type": "color",
+    "$value": "{color-black-alpha-70}",
+    "$description": "Véu atrás do sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-scrim"
+    }
+  },
+  "color-bg-brand": {
+    "$type": "color",
+    "$value": "{color-lime-300}",
+    "$description": "Fundo de ação primária.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-brand"
+    }
+  },
+  "color-bg-brand-strong": {
+    "$type": "color",
+    "$value": "{color-lime-500}",
+    "$description": "Fundo de ação pressionada e gradiente.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-brand-strong"
+    }
+  },
+  "color-bg-brand-soft": {
+    "$type": "color",
+    "$value": "{color-lime-100}",
+    "$description": "Ponta clara dos heróis.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-brand-soft"
+    }
+  },
+  "color-bg-brand-deep": {
+    "$type": "color",
+    "$value": "{color-lime-700}",
+    "$description": "Base escura dos heróis e gráfico.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-brand-deep"
+    }
+  },
+  "color-bg-mint": {
+    "$type": "color",
+    "$value": "{color-mint-300}",
+    "$description": "Cartão e ambiente menta.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-mint"
+    }
+  },
+  "color-bg-cream": {
+    "$type": "color",
+    "$value": "{color-lime-50}",
+    "$description": "Destaque creme e item central da navegação.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-cream"
+    }
+  },
+  "color-bg-danger-subtle": {
+    "$type": "color",
+    "$value": "{color-danger-alpha-10}",
+    "$description": "Fundo da ação destrutiva.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-danger-subtle"
+    }
+  },
+  "color-bg-brand-subtle": {
+    "$type": "color",
+    "$value": "{color-lime-alpha-9}",
+    "$description": "Selo e nota sobre o canvas.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-brand-subtle"
+    }
+  },
+  "color-bg-inverse": {
+    "$type": "color",
+    "$value": "{color-black-950}",
+    "$description": "Botão escuro sobre herói lima.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-bg-inverse"
+    }
+  },
+  "color-text-primary": {
+    "$type": "color",
+    "$value": "{color-ink-50}",
+    "$description": "Texto principal.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-text-primary"
+    }
+  },
+  "color-text-secondary": {
+    "$type": "color",
+    "$value": "{color-ink-300}",
+    "$description": "Texto de apoio.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-text-secondary"
+    }
+  },
+  "color-text-muted": {
+    "$type": "color",
+    "$value": "{color-ink-500}",
+    "$description": "Metadado e placeholder.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-text-muted"
+    }
+  },
+  "color-text-on-brand": {
+    "$type": "color",
+    "$value": "{color-black-950}",
+    "$description": "Texto sobre lima.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-text-on-brand"
+    }
+  },
+  "color-text-brand": {
+    "$type": "color",
+    "$value": "{color-lime-300}",
+    "$description": "Acento, link e valor positivo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-text-brand"
+    }
+  },
+  "color-text-danger": {
+    "$type": "color",
+    "$value": "{color-danger-200}",
+    "$description": "Texto destrutivo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-text-danger"
+    }
+  },
+  "color-text-on-inverse": {
+    "$type": "color",
+    "$value": "{color-lime-300}",
+    "$description": "Texto lima sobre botão escuro.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-text-on-inverse"
+    }
+  },
+  "color-border-default": {
+    "$type": "color",
+    "$value": "{color-ink-700}",
+    "$description": "Borda de controle, navegação e divisor forte.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-border-default"
+    }
+  },
+  "color-border-subtle": {
+    "$type": "color",
+    "$value": "{color-ink-750}",
+    "$description": "Borda de painel e divisor de lista.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-border-subtle"
+    }
+  },
+  "color-border-focus": {
+    "$type": "color",
+    "$value": "{color-lime-300}",
+    "$description": "Anel de foco.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-border-focus"
+    }
+  },
+  "color-border-brand-subtle": {
+    "$type": "color",
+    "$value": "{color-lime-alpha-14}",
+    "$description": "Borda da nota de protótipo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-border-brand-subtle"
+    }
+  },
+  "color-border-on-brand": {
+    "$type": "color",
+    "$value": "{color-black-alpha-12}",
+    "$description": "Divisor sobre herói lima.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-border-on-brand"
+    }
+  },
+  "color-border-glass": {
+    "$type": "color",
+    "$value": "{color-white-alpha-34}",
+    "$description": "Borda de vidro.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-border-glass"
+    }
+  },
+  "color-icon-brand": {
+    "$type": "color",
+    "$value": "{color-lime-300}",
+    "$description": "Ícone de acento.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-icon-brand"
+    }
+  },
+  "color-icon-muted": {
+    "$type": "color",
+    "$value": "{color-ink-500}",
+    "$description": "Ícone discreto.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-icon-muted"
+    }
+  },
+  "color-icon-on-brand": {
+    "$type": "color",
+    "$value": "{color-black-950}",
+    "$description": "Ícone sobre lima.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-icon-on-brand"
+    }
+  },
+  "color-action-primary-bg": {
+    "$type": "color",
+    "$value": "{color-lime-300}",
+    "$description": "Botão primário.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-action-primary-bg"
+    }
+  },
+  "color-action-primary-fg": {
+    "$type": "color",
+    "$value": "{color-black-950}",
+    "$description": "Rótulo do botão primário.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-action-primary-fg"
+    }
+  },
+  "color-action-secondary-bg": {
+    "$type": "color",
+    "$value": "{color-ink-800}",
+    "$description": "Botão secundário.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-action-secondary-bg"
+    }
+  },
+  "color-action-secondary-fg": {
+    "$type": "color",
+    "$value": "{color-ink-50}",
+    "$description": "Rótulo do botão secundário.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-action-secondary-fg"
+    }
+  },
+  "color-action-danger-bg": {
+    "$type": "color",
+    "$value": "{color-danger-alpha-10}",
+    "$description": "Botão destrutivo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-action-danger-bg"
+    }
+  },
+  "color-action-danger-fg": {
+    "$type": "color",
+    "$value": "{color-danger-200}",
+    "$description": "Rótulo do botão destrutivo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-action-danger-fg"
+    }
+  },
+  "color-chart-deep": {
+    "$type": "color",
+    "$value": "{color-lime-700}",
+    "$description": "Fatia profunda do gráfico.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-chart-deep"
+    }
+  },
+  "color-chart-lime": {
+    "$type": "color",
+    "$value": "{color-lime-300}",
+    "$description": "Fatia lima do gráfico.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-chart-lime"
+    }
+  },
+  "color-chart-cream": {
+    "$type": "color",
+    "$value": "{color-lime-50}",
+    "$description": "Fatia creme do gráfico.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-chart-cream"
+    }
+  },
+  "color-chart-empty": {
+    "$type": "color",
+    "$value": "{color-ink-700}",
+    "$description": "Trecho vazio do gráfico.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-chart-empty"
+    }
+  },
+  "color-selection-bg": {
+    "$type": "color",
+    "$value": "{color-lime-300}",
+    "$description": "Fundo da seleção de texto.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-selection-bg"
+    }
+  },
+  "color-selection-fg": {
+    "$type": "color",
+    "$value": "{color-black-950}",
+    "$description": "Texto selecionado.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "color-selection-fg"
+    }
+  },
+  "font-family-body": {
+    "$type": "string",
+    "$value": "{font-family-sans}",
+    "$description": "Texto, título e controle.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-family-body"
+    }
+  },
+  "font-family-label": {
+    "$type": "string",
+    "$value": "{font-family-mono}",
+    "$description": "Eyebrow e selo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-family-label"
+    }
+  },
+  "font-size-caption": {
+    "$type": "dimension",
+    "$value": "{font-size-10}",
+    "$description": "Navegação, meta e nota.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-caption"
+    }
+  },
+  "font-size-label": {
+    "$type": "dimension",
+    "$value": "{font-size-11}",
+    "$description": "Rótulo de campo e linha.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-label"
+    }
+  },
+  "font-size-body-sm": {
+    "$type": "dimension",
+    "$value": "{font-size-12}",
+    "$description": "Apoio e eyebrow visual.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-body-sm"
+    }
+  },
+  "font-size-body": {
+    "$type": "dimension",
+    "$value": "{font-size-14}",
+    "$description": "Texto corrente.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-body"
+    }
+  },
+  "font-size-body-lg": {
+    "$type": "dimension",
+    "$value": "{font-size-16}",
+    "$description": "Controle e botão.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-body-lg"
+    }
+  },
+  "font-size-title-sm": {
+    "$type": "dimension",
+    "$value": "{font-size-20}",
+    "$description": "Título de painel.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-title-sm"
+    }
+  },
+  "font-size-title": {
+    "$type": "dimension",
+    "$value": "{font-size-24}",
+    "$description": "Título de sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-title"
+    }
+  },
+  "font-size-title-lg": {
+    "$type": "dimension",
+    "$value": "{font-size-32}",
+    "$description": "Título de página.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-title-lg"
+    }
+  },
+  "font-size-display": {
+    "$type": "dimension",
+    "$value": "{font-size-66}",
+    "$description": "Saldo e valor de herói.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-display"
+    }
+  },
+  "font-size-hero": {
+    "$type": "dimension",
+    "$value": "{font-size-91}",
+    "$description": "Hero de autenticação no desktop.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-size-hero"
+    }
+  },
+  "font-weight-regular": {
+    "$type": "number",
+    "$value": "{font-weight-400}",
+    "$description": "Texto corrente.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-weight-regular"
+    }
+  },
+  "font-weight-medium": {
+    "$type": "number",
+    "$value": "{font-weight-500}",
+    "$description": "Rótulo mono.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-weight-medium"
+    }
+  },
+  "font-weight-semibold": {
+    "$type": "number",
+    "$value": "{font-weight-600}",
+    "$description": "Título e valor.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-weight-semibold"
+    }
+  },
+  "font-weight-bold": {
+    "$type": "number",
+    "$value": "{font-weight-700}",
+    "$description": "Botão e marca.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-weight-bold"
+    }
+  },
+  "font-weight-black": {
+    "$type": "number",
+    "$value": "{font-weight-750}",
+    "$description": "Wordmark de autenticação.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-weight-black"
+    }
+  },
+  "font-line-height-display": {
+    "$type": "number",
+    "$value": "{font-line-height-1}",
+    "$description": "Números de saldo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-line-height-display"
+    }
+  },
+  "font-line-height-title": {
+    "$type": "number",
+    "$value": "{font-line-height-1-1}",
+    "$description": "Títulos de página.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-line-height-title"
+    }
+  },
+  "font-line-height-body": {
+    "$type": "number",
+    "$value": "{font-line-height-1-55}",
+    "$description": "Parágrafo de apoio.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-line-height-body"
+    }
+  },
+  "font-letter-spacing-display": {
+    "$type": "string",
+    "$value": "{font-letter-spacing-tight-6}",
+    "$description": "Valores grandes.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-letter-spacing-display"
+    }
+  },
+  "font-letter-spacing-title": {
+    "$type": "string",
+    "$value": "{font-letter-spacing-tight-1}",
+    "$description": "Títulos de seção.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-letter-spacing-title"
+    }
+  },
+  "font-letter-spacing-eyebrow": {
+    "$type": "string",
+    "$value": "{font-letter-spacing-wide-2}",
+    "$description": "Eyebrow.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "font-letter-spacing-eyebrow"
+    }
+  },
+  "space-gap-2xs": {
+    "$type": "dimension",
+    "$value": "{space-4}",
+    "$description": "Gap interno de abas. 0.25rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-gap-2xs"
+    }
+  },
+  "space-gap-xs": {
+    "$type": "dimension",
+    "$value": "{space-8}",
+    "$description": "Gap curto entre ícone e rótulo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-gap-xs"
+    }
+  },
+  "space-gap-sm": {
+    "$type": "dimension",
+    "$value": "{space-10-4}",
+    "$description": "Gap de atalhos e categorias. 0.65rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-gap-sm"
+    }
+  },
+  "space-gap-md": {
+    "$type": "dimension",
+    "$value": "{space-16}",
+    "$description": "Gap de formulário e da home. 1rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-gap-md"
+    }
+  },
+  "space-gap-lg": {
+    "$type": "dimension",
+    "$value": "{space-20}",
+    "$description": "Gap da home no desktop. 1.25rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-gap-lg"
+    }
+  },
+  "space-inset-2xs": {
+    "$type": "dimension",
+    "$value": "{space-4}",
+    "$description": "Respiro mínimo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-inset-2xs"
+    }
+  },
+  "space-inset-xs": {
+    "$type": "dimension",
+    "$value": "{space-8}",
+    "$description": "Respiro de nota.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-inset-xs"
+    }
+  },
+  "space-inset-sm": {
+    "$type": "dimension",
+    "$value": "{space-12}",
+    "$description": "Respiro de tile.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-inset-sm"
+    }
+  },
+  "space-inset-md": {
+    "$type": "dimension",
+    "$value": "{space-16}",
+    "$description": "Respiro de página no mobile.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-inset-md"
+    }
+  },
+  "space-inset-lg": {
+    "$type": "dimension",
+    "$value": "{space-20}",
+    "$description": "Respiro de painel. 1.25rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-inset-lg"
+    }
+  },
+  "space-inset-xl": {
+    "$type": "dimension",
+    "$value": "{space-24}",
+    "$description": "Respiro de herói. 1.5rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-inset-xl"
+    }
+  },
+  "space-inset-2xl": {
+    "$type": "dimension",
+    "$value": "{space-32}",
+    "$description": "Respiro de página no desktop. 2rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-inset-2xl"
+    }
+  },
+  "space-stack-xs": {
+    "$type": "dimension",
+    "$value": "{space-8}",
+    "$description": "Pilha curta.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-stack-xs"
+    }
+  },
+  "space-stack-sm": {
+    "$type": "dimension",
+    "$value": "{space-12}",
+    "$description": "Pilha de lista.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-stack-sm"
+    }
+  },
+  "space-stack-md": {
+    "$type": "dimension",
+    "$value": "{space-16}",
+    "$description": "Pilha de seção.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-stack-md"
+    }
+  },
+  "space-stack-lg": {
+    "$type": "dimension",
+    "$value": "{space-24}",
+    "$description": "Pilha de bloco.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-stack-lg"
+    }
+  },
+  "space-stack-xl": {
+    "$type": "dimension",
+    "$value": "{space-32}",
+    "$description": "Pilha de header.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-stack-xl"
+    }
+  },
+  "space-offset-nav": {
+    "$type": "dimension",
+    "$value": "{space-negative-23-2}",
+    "$description": "O item central da navegação sobe 1.45rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-nav"
+    }
+  },
+  "space-offset-card": {
+    "$type": "dimension",
+    "$value": "{space-negative-16}",
+    "$description": "Cartão recuado na pilha.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-card"
+    }
+  },
+  "space-offset-orb": {
+    "$type": "dimension",
+    "$value": "{space-negative-80}",
+    "$description": "Orbe do saldo fora do cartão.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-orb"
+    }
+  },
+  "space-offset-ambient-sm": {
+    "$type": "dimension",
+    "$value": "{space-negative-128}",
+    "$description": "Ambiente curto fora da tela.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-sm"
+    }
+  },
+  "space-offset-ambient-md": {
+    "$type": "dimension",
+    "$value": "{space-negative-160}",
+    "$description": "Ambiente médio fora da tela.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-md"
+    }
+  },
+  "space-offset-ambient-lg": {
+    "$type": "dimension",
+    "$value": "{space-negative-176}",
+    "$description": "Anel do assistente.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-lg"
+    }
+  },
+  "space-offset-ambient-xl": {
+    "$type": "dimension",
+    "$value": "{space-negative-192}",
+    "$description": "Ambiente da home.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-xl"
+    }
+  },
+  "space-offset-ambient-2xl": {
+    "$type": "dimension",
+    "$value": "{space-negative-224}",
+    "$description": "Ambiente da autenticação.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-2xl"
+    }
+  },
+  "space-offset-ambient-3xl": {
+    "$type": "dimension",
+    "$value": "{space-negative-240}",
+    "$description": "Anel da marca no desktop.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-3xl"
+    }
+  },
+  "space-offset-ambient-4xl": {
+    "$type": "dimension",
+    "$value": "{space-negative-256}",
+    "$description": "Ambiente lateral.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-4xl"
+    }
+  },
+  "space-offset-ambient-5xl": {
+    "$type": "dimension",
+    "$value": "{space-negative-288}",
+    "$description": "Ambiente inferior.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-5xl"
+    }
+  },
+  "space-offset-ambient-6xl": {
+    "$type": "dimension",
+    "$value": "{space-negative-320}",
+    "$description": "Ambiente largo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "space-offset-ambient-6xl"
+    }
+  },
+  "stroke-border-none": {
+    "$type": "dimension",
+    "$value": "{stroke-0}",
+    "$description": "Controle sem borda.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "stroke-border-none"
+    }
+  },
+  "stroke-border-default": {
+    "$type": "dimension",
+    "$value": "{stroke-1}",
+    "$description": "Borda de painel, input, lista e navegação.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "stroke-border-default"
+    }
+  },
+  "stroke-border-focus": {
+    "$type": "dimension",
+    "$value": "{stroke-2}",
+    "$description": "Anel de foco visível.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "stroke-border-focus"
+    }
+  },
+  "stroke-border-progress": {
+    "$type": "dimension",
+    "$value": "{stroke-3-2}",
+    "$description": "Barra de progresso fina.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "stroke-border-progress"
+    }
+  },
+  "stroke-border-emphasis": {
+    "$type": "dimension",
+    "$value": "{stroke-3-5}",
+    "$description": "Anel do atalho central.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "stroke-border-emphasis"
+    }
+  },
+  "stroke-border-ring": {
+    "$type": "dimension",
+    "$value": "{stroke-5-6}",
+    "$description": "Anel do orçamento.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "stroke-border-ring"
+    }
+  },
+  "stroke-border-track": {
+    "$type": "dimension",
+    "$value": "{stroke-8}",
+    "$description": "Altura da trilha de progresso.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "stroke-border-track"
+    }
+  },
+  "radius-control": {
+    "$type": "dimension",
+    "$value": "{radius-12}",
+    "$description": "Botão, input e aba.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-control"
+    }
+  },
+  "radius-card": {
+    "$type": "dimension",
+    "$value": "{radius-20}",
+    "$description": "Tile, meta e conta.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-card"
+    }
+  },
+  "radius-panel": {
+    "$type": "dimension",
+    "$value": "{radius-26}",
+    "$description": "Painel e cartão da carteira.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-panel"
+    }
+  },
+  "radius-hero": {
+    "$type": "dimension",
+    "$value": "{radius-34}",
+    "$description": "Herói de saldo, meta e notas.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-hero"
+    }
+  },
+  "radius-sheet": {
+    "$type": "dimension",
+    "$value": "{radius-32}",
+    "$description": "Sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-sheet"
+    }
+  },
+  "radius-nav": {
+    "$type": "dimension",
+    "$value": "{radius-22}",
+    "$description": "Navegação inferior.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-nav"
+    }
+  },
+  "radius-chip": {
+    "$type": "dimension",
+    "$value": "{radius-6}",
+    "$description": "Chip do cartão.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-chip"
+    }
+  },
+  "radius-badge": {
+    "$type": "dimension",
+    "$value": "{radius-pill}",
+    "$description": "Selo, toast e toggle.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-badge"
+    }
+  },
+  "radius-circle": {
+    "$type": "dimension",
+    "$value": "{radius-full}",
+    "$description": "Avatar, ícone circular e progresso.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "radius-circle"
+    }
+  },
+  "shadow-elevation-overlay": {
+    "$type": "string",
+    "$value": "{shadow-overlay}",
+    "$description": "Navegação, sheet e toast.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "shadow-elevation-overlay"
+    }
+  },
+  "shadow-elevation-card": {
+    "$type": "string",
+    "$value": "{shadow-card}",
+    "$description": "Cartão empilhado.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "shadow-elevation-card"
+    }
+  },
+  "shadow-elevation-glow": {
+    "$type": "string",
+    "$value": "{shadow-glow}",
+    "$description": "Wordmark.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "shadow-elevation-glow"
+    }
+  },
+  "shadow-elevation-mark": {
+    "$type": "string",
+    "$value": "{shadow-mark}",
+    "$description": "Marca do assistente.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "shadow-elevation-mark"
+    }
+  },
+  "opacity-ambient": {
+    "$type": "number",
+    "$value": "{opacity-9}",
+    "$description": "Brilho de ambiente da home.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "opacity-ambient"
+    }
+  },
+  "opacity-ambient-strong": {
+    "$type": "number",
+    "$value": "{opacity-16}",
+    "$description": "Brilho de ambiente da autenticação.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "opacity-ambient-strong"
+    }
+  },
+  "opacity-muted": {
+    "$type": "number",
+    "$value": "{opacity-56}",
+    "$description": "Texto secundário sobre herói.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "opacity-muted"
+    }
+  },
+  "opacity-glass": {
+    "$type": "number",
+    "$value": "{opacity-22}",
+    "$description": "Vidro claro.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "opacity-glass"
+    }
+  },
+  "opacity-scrim": {
+    "$type": "number",
+    "$value": "{opacity-70}",
+    "$description": "Véu do sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "opacity-scrim"
+    }
+  },
+  "opacity-nav": {
+    "$type": "number",
+    "$value": "{opacity-94}",
+    "$description": "Vidro da navegação.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "opacity-nav"
+    }
+  },
+  "z-index-base": {
+    "$type": "number",
+    "$value": "{z-index-1}",
+    "$description": "Conteúdo acima do ambiente.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "z-index-base"
+    }
+  },
+  "z-index-raised": {
+    "$type": "number",
+    "$value": "{z-index-3}",
+    "$description": "Cartão ativo na pilha.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "z-index-raised"
+    }
+  },
+  "z-index-sticky-nav": {
+    "$type": "number",
+    "$value": "{z-index-40}",
+    "$description": "Navegação inferior.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "z-index-sticky-nav"
+    }
+  },
+  "z-index-overlay": {
+    "$type": "number",
+    "$value": "{z-index-50}",
+    "$description": "Sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "z-index-overlay"
+    }
+  },
+  "z-index-toast": {
+    "$type": "number",
+    "$value": "{z-index-80}",
+    "$description": "Toast.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "z-index-toast"
+    }
+  },
+  "duration-press": {
+    "$type": "dimension",
+    "$value": "{duration-180}",
+    "$description": "Pressão de botão e toggle.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "duration-press"
+    }
+  },
+  "duration-toast": {
+    "$type": "dimension",
+    "$value": "{duration-240}",
+    "$description": "Entrada do toast.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "duration-toast"
+    }
+  },
+  "duration-sheet": {
+    "$type": "dimension",
+    "$value": "{duration-300}",
+    "$description": "Entrada do sheet e troca de cartão.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "duration-sheet"
+    }
+  },
+  "duration-instant": {
+    "$type": "dimension",
+    "$value": "{duration-0}",
+    "$description": "Sem movimento, inclusive com reduced motion.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "duration-instant"
+    }
+  },
+  "easing-press": {
+    "$type": "string",
+    "$value": "{easing-standard}",
+    "$description": "Movimento de controle.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "easing-press"
+    }
+  },
+  "easing-sheet": {
+    "$type": "string",
+    "$value": "{easing-emphasized}",
+    "$description": "Movimento do sheet.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "easing-sheet"
+    }
+  },
+  "breakpoint-desktop": {
+    "$type": "dimension",
+    "$value": "{breakpoint-md}",
+    "$description": "A interface ganha colunas.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "breakpoint-desktop"
+    }
+  },
+  "breakpoint-desktop-wide": {
+    "$type": "dimension",
+    "$value": "{breakpoint-lg}",
+    "$description": "Grade de orçamento com quatro colunas.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "breakpoint-desktop-wide"
+    }
+  },
+  "breakpoint-canvas": {
+    "$type": "dimension",
+    "$value": "{breakpoint-xl}",
+    "$description": "Aumenta a raiz tipográfica.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "breakpoint-canvas"
+    }
+  },
+  "size-icon-button": {
+    "$type": "dimension",
+    "$value": "{space-44}",
+    "$description": "Botão de ícone. 2.75rem.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "size-icon-button"
+    }
+  },
+  "size-button": {
+    "$type": "dimension",
+    "$value": "{size-52}",
+    "$description": "Altura mínima do botão.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "size-button"
+    }
+  },
+  "size-input": {
+    "$type": "dimension",
+    "$value": "{size-51-2}",
+    "$description": "Altura mínima do campo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "size-input"
+    }
+  },
+  "size-nav": {
+    "$type": "dimension",
+    "$value": "{size-69-6}",
+    "$description": "Altura da navegação inferior.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "size-nav"
+    }
+  },
+  "size-page": {
+    "$type": "dimension",
+    "$value": "{size-1376}",
+    "$description": "Largura máxima do miolo.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "size-page"
+    }
+  },
+  "size-page-wide": {
+    "$type": "dimension",
+    "$value": "{size-1600}",
+    "$description": "Largura máxima em tela muito larga.",
+    "$extensions": {
+      "com.eskgo.collection": "semantic",
+      "com.eskgo.name": "size-page-wide"
+    }
+  }
+}
