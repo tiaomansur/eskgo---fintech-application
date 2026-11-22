@@ -11,7 +11,6 @@ function getFigmaDevOrigins() {
 }
 
 const nextConfig: NextConfig = {
-  output: "export",
   allowedDevOrigins: getFigmaDevOrigins(),
 };
 

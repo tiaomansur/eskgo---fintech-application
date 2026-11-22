@@ -31,6 +31,7 @@ import {
 } from "lucide-react";
 import { FormEvent, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { money } from "@/lib/data";
+import { supabase } from "@/lib/supabase";
 import {
   deleteOwnAccount,
   fetchAccount,
@@ -966,6 +967,46 @@ function AssistantView() {
     "Quanto falta para minha viagem?",
     "Como posso economizar esta semana?",
   ];
+  const [draft, setDraft] = useState("");
+  const [answer, setAnswer] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [pending, setPending] = useState(false);
+
+  async function ask(question: string) {
+    const text = question.trim();
+    if (!text || pending) return;
+    setPending(true);
+    setError(null);
+    setAnswer(null);
+    const { data } = await supabase.auth.getSession();
+    const token = data.session?.access_token;
+    if (!token) {
+      setPending(false);
+      setError("Entre na sua conta para perguntar.");
+      return;
+    }
+    try {
+      const response = await fetch("/api/assistant", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ question: text }),
+      });
+      const body = await response.json() as { answer?: string; error?: string };
+      if (!response.ok || !body.answer) {
+        setError(body.error ?? "Não consegui consultar o assistente.");
+      } else {
+        setAnswer(body.answer);
+        setDraft("");
+      }
+    } catch {
+      setError("Não consegui consultar o assistente.");
+    } finally {
+      setPending(false);
+    }
+  }
 
   return (
     <main className="assistant-layout">
@@ -974,10 +1015,9 @@ function AssistantView() {
         <Text className="eyebrow">ESKGO PLUS</Text>
         <Heading level={2}>Clareza para o seu dinheiro.</Heading>
         <Text>
-          O Assistente será conectado aos seus lançamentos, cartões e objetivos
-          para responder usando os seus números reais.
+          O assistente responde com os lançamentos, cartões e metas da sua conta.
         </Text>
-        <span className="assistant-badge">Em breve no Plus</span>
+        <span className="assistant-badge">Seus números</span>
       </section>
       <section className="panel assistant-prompts">
         <div className="section-heading">
@@ -988,17 +1028,36 @@ function AssistantView() {
         </div>
         <div className="assistant-prompts__list">
           {prompts.map((prompt) => (
-            <Button variant="ghost" disabled key={prompt}>
+            <Button variant="ghost" type="button" disabled={pending} key={prompt} onClick={() => void ask(prompt)}>
               <Sparkles size={17} />
               <span>{prompt}</span>
               <ChevronRight size={17} />
             </Button>
           ))}
         </div>
-        <div className="assistant-composer" aria-disabled="true">
-          <span>O chat estará disponível no Eskgo Plus</span>
-          <span className="assistant-composer__send"><ArrowUpRight size={18} /></span>
-        </div>
+        {answer ? <p className="assistant-reply">{answer}</p> : null}
+        {error ? <p className="form-error">{error}</p> : null}
+        <form
+          className="assistant-composer"
+          onSubmit={(event) => {
+            event.preventDefault();
+            void ask(draft);
+          }}
+        >
+          <label className="sr-only" htmlFor="assistant-question">Pergunta</label>
+          <input
+            id="assistant-question"
+            className="assistant-composer__input"
+            value={draft}
+            onChange={(event) => setDraft(event.target.value)}
+            placeholder={pending ? "Consultando os seus números..." : "Pergunte sobre o seu mês"}
+            disabled={pending}
+            maxLength={500}
+          />
+          <button className="assistant-composer__send" type="submit" disabled={pending} aria-label="Enviar pergunta">
+            <ArrowUpRight size={18} />
+          </button>
+        </form>
       </section>
     </main>
   );
